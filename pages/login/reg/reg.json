@@ -1,9 +1,0 @@
-{
-  "usingComponents": {},
-  "navigationStyle": "custom",
-  "window": {
-    "navigationBarBackgroundColor": "#1296db",
-    "navigationBarTitleText": "心理咨询系统",
-    "navigationBarTextStyle": "white"
-  }
-}
