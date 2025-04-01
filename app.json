@@ -1,0 +1,42 @@
+{
+  "pages": [
+  "pages/login/login/login",
+    "pages/index/index",
+    "pages/login/reg/reg",
+    "pages/hislist/hislist"
+  ],
+
+  "tabBar":{
+    "selectedColor": "#1075B1",
+    
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"主页",
+        "iconPath":"/pages/images/home_page.png",
+        "selectedIconPath":"/pages/images/home_page_active.png"
+      },
+      {
+        "pagePath":"pages/hislist/hislist",
+        "text":"咨询记录",
+        "iconPath":"/pages/images/zixun.png",
+        "selectedIconPath":"/pages/images/zixun_active.png"   
+      }
+    ]
+  },
+  "style": "v2",
+  "renderer": "webview",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "defaultContentBox": true,
+      "tagNameStyleIsolation": "legacy",
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
